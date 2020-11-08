@@ -1,0 +1,22 @@
+{
+    "name": "Hello Jira",
+    "description": "first jira app",
+    "key": "com.gbm.myapp",
+    "baseUrl": "https://4dfc21f18c3a.ngrok.io",
+    "vendor": {
+        "name": "Gulf Business Machines",
+        "url": "http://gbmme.com"
+    },
+    "authentication": {
+        "type": "none"
+    },
+    "apiVersion": 1,
+    "modules": {
+        "serviceDeskPortalFooters": [
+            {
+                "key": "hello-jira",
+                "url": "/hellojira.html"
+            }
+        ]
+    }
+}
